@@ -1,34 +1,119 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/BrunoCarvalhoFeitosa/NetflixClone">
+    <img src="/public/favicon.png" alt="Logo" />
+  </a>
 
-## Getting Started
+  <p align="center">
+    App desenvolvido em Next.js para reprodução de poadcasts voltados a comunidade de desenvolvedores e analistas de sistemas.
+  </p>
+</p>
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Sumário</summary>
+  <ol>
+    <li>
+      <a href="#sobre-o-projeto">Sobre o projeto</a>
+      <ul>
+        <li><a href="#feito-com">Feito com</a></li>
+        <li><a href="#hospedagem">Hospedagem</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#iniciando-o-projeto">Iniciando o projeto</a>
+      <ul>
+        <li><a href="#pré-requisitos">Pré-requisitos</a></li>
+        <li><a href="#instalação">Instalação</a></li>
+      </ul>
+    </li>
+    <li><a href="#uso">Uso</a></li>
+    <li><a href="#licenças">Licenças</a></li>
+    <li><a href="#contato">Contato</a></li>
+    <li><a href="#reconhecimentos">Reconhecimentos</a></li>
+  </ol>
+</details>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<!-- ABOUT THE PROJECT -->
+## Sobre o projeto
 
-## Learn More
+#### Homepage
+![home-poadcastr](https://user-images.githubusercontent.com/46093815/141693999-f4d9d1d4-b42e-47d1-9505-d3fb89db28bc.png)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Este app foi feito em Next.js e é um mini poadcast, contendo diversos episódios voltados à comunidade de desenvolvedores e analistas de sistemas.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Feito com
 
-## Deploy on Vercel
+* [Next.js](https://nextjs.org/)
+* [React.js](https://pt-br.reactjs.org/)
+* [Styled-components](https://styled-components.com/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Hospedagem
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+O app ainda não foi hospedado em nenhuma plataforma, porém você poderá cloná-lo. Basta acompanhar o próximo tópico.
+
+
+<!-- GETTING STARTED -->
+## Iniciando o projeto
+
+Primeiramente será necessário clonar este projeto em (https://github.com/BrunoCarvalhoFeitosa/Poadcastr.git), após o download será necessário abrir este projeto no seu
+editor e no terminal digitar npm install ou yarn install.
+
+* Abra seu editor e instale as dependências utilizando o npm install ou yarn install.
+* Execute o comando npm run server para executar o servidor local, um JSON contendo as informações dos episódios dos poadcasts.
+* Posteriormente execute o comando npm run dev para executar o localhost.
+
+### Pré-requisitos
+
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+  
+### Instalação
+
+1. Clone o repositório
+   ```sh
+   git clone https://github.com/BrunoCarvalhoFeitosa/Poadcastr.git
+   ```
+2. Instale os pacotes NPM
+   ```sh
+   npm install ou yarn install
+   ```
+   
+3. Inicie o servidor
+   ```sh
+   npm run server ou yarn server
+   ```
+   
+4. Inicie o front-end
+   ```sh
+   npm run dev ou yarn dev
+   ```
+
+<!-- USAGE EXAMPLES -->
+## Uso
+
+Este app é uma breve demonstração de manipulação de vídeos utilizando o Next.js.
+
+
+<!-- LICENSE -->
+## Licenças
+
+Distribuído sob a licença MIT.
+
+<!-- CONTACT -->
+## Contato
+
+Bruno Carvalho Feitosa - [GitHub](https://github.com/BrunoCarvalhoFeitosa) - [LinkedIn](https://www.linkedin.com/in/bruno-carvalho-feitosa/)
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Reconhecimentos
+* [Rocketseat](https://www.rocketseat.com.br/)
