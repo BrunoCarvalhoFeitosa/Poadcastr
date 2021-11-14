@@ -8,7 +8,7 @@ import { usePlayer } from '../../contexts/PlayerContext';
 import { convertDurationToTimeString } from '../../utils/convertDurationToTimeString';
 import { api } from '../../services/api';
 
-import * as S from './styled';
+import * as S from '../../styles/Episodes/styled';
 
 type Episode = {
   id: string;
@@ -23,10 +23,10 @@ type Episode = {
 };
 
 type EpisodeProps = {
-    episode: Episode;
+  episode: Episode;
 };
 
-const Episode = ({ episode }: EpisodeProps) => {
+function Episode ({ episode }: EpisodeProps) {
   const { play } = usePlayer();
 
   return (
